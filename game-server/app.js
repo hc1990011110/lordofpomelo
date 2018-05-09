@@ -67,7 +67,7 @@ app.configure('production|development', function () {
 
     /*高可用插件*/
      // master high availability
-     app.use(masterhaPlugin, {
+     /*app.use(masterhaPlugin, {
          zookeeper:
          {
              server: 'localhost:2181',
@@ -75,7 +75,7 @@ app.configure('production|development', function () {
              username:  "pomelo",
              password:  "pomelo"
          }
-     });
+     });*/
 });
 
 // Configure for auth server
