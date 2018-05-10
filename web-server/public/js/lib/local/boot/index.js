@@ -6,8 +6,8 @@
 
   var protobuf = require('pomelo-protobuf');
   window.protobuf = protobuf;
-  //todo 更改pomelo-jsclient-websocket 为 pomelo-nodejsclient-websocket
-  var pomelo = require('pomelo-nodejsclient-websocket');
+  
+  var pomelo = require('pomelo-jsclient-websocket');
   window.pomelo = pomelo;
 
   var jquery = require('jquery');
