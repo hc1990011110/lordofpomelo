@@ -86,7 +86,7 @@ pro.entry = function(msg, session, next) {
 			next(err, {code: Code.FAIL});
 			return;
 		}
-		console.log('entry success!!!!');
+		console.log('[%s]connector.entryHandler.entry entry success!!!!', self.app.serverId);
 
 		next(null, {code: Code.OK, player: players ? players[0] : null});
 	});

@@ -26,5 +26,6 @@ Handler.prototype.queryEntry = function(msg, session, next) {
 	}
 
 	var res = dispatcher.dispatch(uid, connectors);
+	console.log("[%s]gate.gateHandler.queryEntry", this.app.serverId);
 	next(null, {code: Code.OK, host: res.clientHost, port: res.clientPort});
 };

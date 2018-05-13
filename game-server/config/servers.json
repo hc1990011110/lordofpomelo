@@ -1,14 +1,11 @@
 {
 	"development": {
 		"connector": [
-			{"id": "connector-server-1", "host": "127.0.0.1", "port": 3150, "clientPort": 3010, "clientHost": "127.0.0.1", "frontend": true},
-            {"id": "connector-server-2", "host": "127.0.0.1", "port": 3151, "clientPort": 3011, "clientHost": "127.0.0.1", "frontend": true}
+			{"id": "connector-server-1", "host": "127.0.0.1", "port": 3150, "clientPort": 3010, "clientHost": "127.0.0.1", "frontend": true}
 		],
 		"area": [
 			{"id": "area-server-1", "host": "127.0.0.1", "port": 3250, "area": 1},
-			{"id": "area-server-2", "host": "127.0.0.1", "port": 3251, "area": 2},
-			{"id": "instance-server-1", "host": "127.0.0.1", "port": 3260, "instance": true},
-			{"id": "instance-server-2", "host": "127.0.0.1", "port": 3261, "instance": true}
+			{"id": "instance-server-1", "host": "127.0.0.1", "port": 3260, "instance": true}
 		],
 		"chat": [
 			{"id":"chat-server-1","host":"127.0.0.1","port":3450}

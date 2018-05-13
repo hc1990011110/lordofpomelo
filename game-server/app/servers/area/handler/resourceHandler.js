@@ -92,7 +92,7 @@ handler.loadResource = function(msg, session, next) {
   if (msg.version.effect !== version.effect) {
     data.effect = require('../../../../config/effect.json');
   }
-
+  console.log("[%s]loadResource....", app.getServerId());
   next(null, {
     data: data,
     version: version
@@ -135,7 +135,7 @@ handler.loadAreaResource = function(msg, session, next) {
       }
     }
   }
-
+  console.log("[%s]loadAreaResource....", app.getServerId());
   next(null, {
     players: Object.keys(players),
     mobs: Object.keys(mobs),

@@ -84,7 +84,8 @@ handler.enterScene = function(msg, session, next) {
           weightMap: map.collisions
         }
     };
-		// utils.myPrint("1.5 ~ GetPlayerAllInfo data = ", JSON.stringify(data));
+    // utils.myPrint("1.5 ~ GetPlayerAllInfo data = ", JSON.stringify(data));
+    console.log("[%s]enterScene....", pomelo.app.getServerId());
 		next(null, data);
 
 		utils.myPrint("2 ~ GetPlayerAllInfo player.teamId = ", player.teamId);
