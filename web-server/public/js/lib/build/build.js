@@ -12023,7 +12023,7 @@ require.register("pomelonode~pomelo-jsclient-websocket@master", function (export
       route = msg.route = abbrs[route];
     }
     if(protobuf && serverProtos[route]) {
-      return protobuf.decodeStr(route, msg.body);
+      return protobuf.decode(route, msg.body);
     } else if(decodeIO_decoder && decodeIO_decoder.lookup(route)) {
       return decodeIO_decoder.build(route).decode(msg.body);
     } else {
