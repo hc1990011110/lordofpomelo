@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "game-server"
+		},
+		{
+			"path": "game-server\\node_modules"
+		},
+		{
+			"path": "game-server\\node_modules\\pomelo\\node_modules"
+		}
+	],
+	"settings": {
+		"svn.ignoreMissingSvnWarning": true
+	}
+}

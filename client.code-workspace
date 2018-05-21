@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "web-server"
+		},
+		{
+			"path": "web-server\\node_modules"
+		}
+	],
+	"settings": {
+		"svn.ignoreMissingSvnWarning": true
+	}
+}
