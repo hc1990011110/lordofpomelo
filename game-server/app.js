@@ -9,6 +9,8 @@ var playerFilter = require('./app/servers/area/filter/playerFilter');
 var ChatService = require('./app/services/chatService');
 var sync = require('pomelo-sync-plugin');
 var masterhaPlugin = require('pomelo-masterha-plugin');
+var redis   = require('redis');
+var client  = redis.createClient('6379', '127.0.0.1');
 
 /**
  * Init app for client
